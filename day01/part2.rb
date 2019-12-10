@@ -8,5 +8,5 @@ end
 
 puts ARGF.each_line.map {|n|
   fuel_required_for(n)
-}
-.reduce(0, :+)
+}.sum
+
